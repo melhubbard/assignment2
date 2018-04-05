@@ -1,0 +1,173 @@
+body{
+  background: #FF0000;
+}
+
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+  border: solid;
+}
+
+.head{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #FAEBD7;
+  border-radius: 50%;
+}
+
+.head-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #FAEBD7;
+  border-radius: 40%;
+  z-index: 2;
+}
+
+.ear-left{
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  left: -3%;
+  top: 25%;
+  background: #FAEBD7;
+  border-radius: 50%;
+  z-index: 1;
+}
+.ear-right{
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  right: -3%;
+  top: 25%;
+  background: #FAEBD7;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+.eye-left{
+  position: absolute;
+  background: white;
+  width: 15%;
+  height: 15%;
+  top: 35%;
+  left: 25%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.eye-right{
+  position: absolute;
+  background: white;
+  width: 15%;
+  height: 15%;
+  top: 35%;
+  right: 25%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.pupil{
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background: #27354A;
+}
+
+.nosering{
+  position: absolute;
+  background: #FAEBD7;
+  width: 5%;
+  height: 5%;
+  left: 50%;
+  top: 53%;
+  border-radius: 50%;
+  z-index: 4;
+  border: solid
+}
+
+
+.nose{
+  position: absolute;
+  background: red;
+  width: 10%;
+  height: 10%;
+  left: 46%;
+  top: 48%;
+  border-radius: 50px;
+  z-index: 4;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+
+.hair-left{
+  position: absolute;
+  top: -18%;
+  left: 30%;
+  width: 20%;
+  height: 50%;
+  background:  #7FFF00;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.hair-right{
+  position: absolute;
+  top: -18%;
+  left: 48%;
+  width: 20%;
+  height: 50%;
+  background:  #A52A2A;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hair-1{
+  position: absolute;
+  top: -6%;
+  left: 8%;
+  width: 20%;
+  height: 50%;
+  background:  #A52A2A;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hair-2{
+  position: absolute;
+  top: -6%;
+  right: 8%;
+  width: 20%;
+  height: 50%;
+  background:  #7FFF00;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.mouth{
+  position: absolute;
+  background: black;
+  width: 8%;
+  height: 5%;
+  left: 40%;
+  top: 80%;
+  border-radius: 50%;
+  z-index: 4;
+  border: solid
+}
